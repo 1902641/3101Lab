@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICT3101_Calculator", "ICT3101_Calculator.csproj", "{A931E80D-4C73-4404-A0C2-FDEDC11ADF36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICT3101_Calculator.UnitTests", "..\ICT3101_Calculator.UnitTests\ICT3101_Calculator.UnitTests.csproj", "{F3D4EE62-FEA5-4324-A53F-BAEEBA49CB18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowCalculatorTests", "..\SpecFlowCalculatorTests\SpecFlowCalculatorTests.csproj", "{15A5B63E-FA64-4560-9508-70924CA7C941}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A931E80D-4C73-4404-A0C2-FDEDC11ADF36} = {A931E80D-4C73-4404-A0C2-FDEDC11ADF36}
+		{F3D4EE62-FEA5-4324-A53F-BAEEBA49CB18} = {F3D4EE62-FEA5-4324-A53F-BAEEBA49CB18}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A931E80D-4C73-4404-A0C2-FDEDC11ADF36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A931E80D-4C73-4404-A0C2-FDEDC11ADF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A931E80D-4C73-4404-A0C2-FDEDC11ADF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A931E80D-4C73-4404-A0C2-FDEDC11ADF36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3D4EE62-FEA5-4324-A53F-BAEEBA49CB18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3D4EE62-FEA5-4324-A53F-BAEEBA49CB18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3D4EE62-FEA5-4324-A53F-BAEEBA49CB18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3D4EE62-FEA5-4324-A53F-BAEEBA49CB18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A5B63E-FA64-4560-9508-70924CA7C941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A5B63E-FA64-4560-9508-70924CA7C941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A5B63E-FA64-4560-9508-70924CA7C941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A5B63E-FA64-4560-9508-70924CA7C941}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E308EF52-DE3B-4093-91ED-CEBE420F9B36}
+	EndGlobalSection
+EndGlobal
