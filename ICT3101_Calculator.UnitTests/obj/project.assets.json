@@ -7545,11 +7545,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danie\\Desktop\\Lab\\Lab1\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\danie\\Documents\\GitHub\\3101Lab\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
       "projectName": "ICT3101_Calculator.UnitTests",
-      "projectPath": "C:\\Users\\danie\\Desktop\\Lab\\Lab1\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
+      "projectPath": "C:\\Users\\danie\\Documents\\GitHub\\3101Lab\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
       "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danie\\Desktop\\Lab\\Lab1\\ICT3101_Calculator.UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\danie\\Documents\\GitHub\\3101Lab\\ICT3101_Calculator.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7571,8 +7571,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\danie\\Desktop\\Lab\\Lab1\\ICT3101_Calculator\\ICT3101_Calculator.csproj": {
-              "projectPath": "C:\\Users\\danie\\Desktop\\Lab\\Lab1\\ICT3101_Calculator\\ICT3101_Calculator.csproj"
+            "C:\\Users\\danie\\Documents\\GitHub\\3101Lab\\ICT3101_Calculator\\ICT3101_Calculator.csproj": {
+              "projectPath": "C:\\Users\\danie\\Documents\\GitHub\\3101Lab\\ICT3101_Calculator\\ICT3101_Calculator.csproj"
             }
           }
         }

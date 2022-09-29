@@ -3,23 +3,23 @@ using NUnit.Framework;
 namespace SpecFlowCalculatorTests.StepDefinitions
 {
     [Binding]
-    public sealed class UsingCalculatorDivisionStepDefinitions
+    public sealed class UsingCalculatorDivisionStep
     {
         private CalculatorContext _calculatorContext;
         private double _result;
 
-        public UsingCalculatorDivisionStepDefinitions(CalculatorContext _calculatorContext) // use it as ctor parameter
+        public UsingCalculatorDivisionStep(CalculatorContext _calculatorContext) // use it as ctor parameter
         {
             this._calculatorContext = _calculatorContext;
         }
 
-        [When(@"I have entered (.*) and (.*) into the calculator and press divide")]
+        [When(@"I have entered ""(.*)"" and ""(.*)"" into the calculator and press divide")]
         public void WhenIHaveEnteredAndIntoTheCalculatorAndPressDivide(double p0, double p1)
         {
              _result = _calculatorContext._calculator.Divide(p0, p1);
         }
 
-        [Then(@"the division result should be (.*)")]
+        [Then(@"the division result should be ""(.*)""")]
         public void ThenTheDivisionResultShouldBe(Decimal p0)
         {
             Assert.That(_result, Is.EqualTo(p0));

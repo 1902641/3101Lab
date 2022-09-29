@@ -61,6 +61,12 @@ namespace ICT3101_Calculator
             double finalNum2 = Convert.ToDouble(Convert.ToInt32(bin2, 2));
             return (finalNum1 + finalNum2);
         }
+
+        public double Add2(double num1, double num2)
+        {
+            return num1 + num2;
+        }
+
         public double Subtract(double num1, double num2)
         {
             return (num1 - num2);
@@ -135,6 +141,46 @@ namespace ICT3101_Calculator
         public double UnknownFunctionB(double num1, double num2)
         {
             return Divide(Factorial(num1), Multiply(Factorial(num2), Factorial(Subtract(num1, num2))));
+        }
+
+        public double MTBF(double MTTF, double MTTR)
+        {
+            return MTTF + MTTR;
+        }
+        public double Availability(double MTTF, double MTBF)
+        {
+            return (MTTF / MTBF);
+        }
+
+        public double CurrentFailureIntensity(double num1, double num2, double num3)
+        {
+            return (Multiply(num1, 1 - Divide(num2, num3)));
+        }
+
+        public double AverageNumberofExpectedFailures(double num1, double num2, double num3)
+        {
+            return (Multiply(num1, 1 - Math.Pow(Math.E, Divide(Multiply(-num2, num3), num1))));
+        }
+
+        // Logarithmic Model
+        public decimal CurrentFailureIntensityLogModel(double initialFailure, double decayParam, double avgExptFailure)
+        {
+            return decimal.Round((decimal)Multiply(initialFailure, Math.Exp(Multiply(-decayParam, avgExptFailure))), 2);
+        }
+
+        public int LogAverageNumberofExpectedFailures(double time, double decayParam, double initialFailure)
+        {
+            return (int)Multiply(Math.Log(Add2(Multiply(initialFailure, decayParam * time), 1)), Divide(1, decayParam));
+        }
+
+        public double DefectDensity(double defects, double CSI)
+        {
+            return (defects / CSI);
+        }
+
+        public double SSISecondRelease(double SSIOld, double CSI, double changedCode)
+        {
+            return (Subtract((SSIOld + CSI), changedCode));
         }
     }
 

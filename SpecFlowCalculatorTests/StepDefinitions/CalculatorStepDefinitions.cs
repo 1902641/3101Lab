@@ -24,7 +24,7 @@ namespace SpecFlowCalculatorTests.StepDefinitions
         public void GivenIHaveACalculator()
         {
             _calculator = new Calculator();
-            _calculatorContext._calculator = new Calculator();
+            _calculatorContext._calculator = _calculator;
         }
 
         [When(@"I have entered (.*) and (.*) into the calculator and press add")]

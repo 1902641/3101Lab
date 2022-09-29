@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\UsingCalculatorAvailability.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\UsingCalculatorBasicReliability.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\UsingCalculatorDefectDensity.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\UsingCalculatorLogarithmicReliability.feature.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.1" />
     <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57" />
     <PackageReference Include="SpecFlow.NUnit" Version="3.9.74" />

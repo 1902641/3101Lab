@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "APrti5DNpqNX5uCoy9LJqk8z1DY/xg0WEzvfsIe/rTN4H27WK8hGWror8kNKJFqw8fDBUpFd9gFHhrz237+nCA==",
+  "dgSpecHash": "6MRDIPkRc+BCpgi1prC5Vuuhz+GpWIWJQ6a335Wcw0paSn5BngU4smKhIbCEsHPNFAHiGAGc6SpQ7C2n/rZppQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danie\\Desktop\\Lab\\Lab1\\SpecFlowCalculatorTests\\SpecFlowCalculatorTests.csproj",
+  "projectFilePath": "C:\\Users\\danie\\Documents\\GitHub\\3101Lab\\SpecFlowCalculatorTests\\SpecFlowCalculatorTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danie\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\fluentassertions\\6.7.0\\fluentassertions.6.7.0.nupkg.sha512",
