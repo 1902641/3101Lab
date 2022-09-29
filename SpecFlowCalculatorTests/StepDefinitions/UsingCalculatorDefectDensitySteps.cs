@@ -1,5 +1,4 @@
-﻿using System;
-using TechTalk.SpecFlow;
+﻿using ICT3101_Calculator;
 using NUnit.Framework;
 using SpecFlowCalculatorTests.StepDefinitions;
 

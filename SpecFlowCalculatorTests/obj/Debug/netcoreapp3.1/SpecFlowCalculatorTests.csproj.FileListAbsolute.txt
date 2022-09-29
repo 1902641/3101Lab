@@ -1,0 +1,5 @@
+C:\Users\danie\Documents\GitHub\3101Lab\SpecFlowCalculatorTests\obj\Debug\netcoreapp3.1\SpecFlowCalculatorTests.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\GitHub\3101Lab\SpecFlowCalculatorTests\obj\Debug\netcoreapp3.1\SpecFlowCalculatorTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\GitHub\3101Lab\SpecFlowCalculatorTests\obj\Debug\netcoreapp3.1\SpecFlowCalculatorTests.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\GitHub\3101Lab\SpecFlowCalculatorTests\obj\Debug\netcoreapp3.1\SpecFlowCalculatorTests.AssemblyInfo.cs
+C:\Users\danie\Documents\GitHub\3101Lab\SpecFlowCalculatorTests\obj\Debug\netcoreapp3.1\SpecFlowCalculatorTests.csproj.CoreCompileInputs.cache

@@ -2,7 +2,7 @@
 using NUnit.Framework;
 using SpecFlowCalculatorTests.StepDefinitions;
 
-namespace ICT3101_Calculator.UnitTests.Step_Definitions
+namespace UnitTests.Step_Definitions
 {
     [Binding]
     public class UsingCalculatorBasicReliabilitySteps
