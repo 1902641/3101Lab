@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    ".NETCoreApp,Version=v3.1": {
       "BoDi/1.5.0": {
         "type": "package",
         "compile": {
@@ -24,12 +24,12 @@
           "System.Configuration.ConfigurationManager": "4.4.0"
         },
         "compile": {
-          "lib/net6.0/FluentAssertions.dll": {
+          "lib/netcoreapp3.0/FluentAssertions.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0/FluentAssertions.dll": {
+          "lib/netcoreapp3.0/FluentAssertions.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -731,12 +731,12 @@
           "SpecFlow.Tools.MsBuild.Generation": "[3.9.74]"
         },
         "compile": {
-          "lib/net6.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {
+          "lib/netstandard2.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {
             "related": ".pdb"
           }
         },
         "runtime": {
-          "lib/net6.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {
+          "lib/netstandard2.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {
             "related": ".pdb"
           }
         },
@@ -1867,7 +1867,7 @@
       },
       "ICT3101_Calculator/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "FluentAssertions": "6.7.0",
           "Microsoft.NET.Test.Sdk": "17.3.1",
@@ -6549,7 +6549,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    ".NETCoreApp,Version=v3.1": [
       "FluentAssertions >= 6.7.0",
       "ICT3101_Calculator >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.1",
@@ -6581,7 +6581,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -6589,8 +6589,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
             "C:\\Users\\danie\\Documents\\GitHub\\3101Lab\\ICT3101_Calculator\\ICT3101_Calculator.csproj": {
               "projectPath": "C:\\Users\\danie\\Documents\\GitHub\\3101Lab\\ICT3101_Calculator\\ICT3101_Calculator.csproj"
@@ -6605,8 +6605,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "FluentAssertions": {
             "target": "Package",

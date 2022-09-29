@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "FluentAssertions": {
               "target": "Package",
@@ -114,7 +114,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -122,8 +122,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\danie\\Documents\\GitHub\\3101Lab\\ICT3101_Calculator\\ICT3101_Calculator.csproj": {
                 "projectPath": "C:\\Users\\danie\\Documents\\GitHub\\3101Lab\\ICT3101_Calculator\\ICT3101_Calculator.csproj"
@@ -138,8 +138,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "FluentAssertions": {
               "target": "Package",
