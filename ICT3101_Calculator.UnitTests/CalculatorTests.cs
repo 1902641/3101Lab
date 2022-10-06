@@ -20,7 +20,6 @@ namespace ICT3101_Calculator.UnitTests
         //    Assert.That(result, Is.EqualTo(30));
         //}
 
-        // Q14
         [Test]
         public void Subract_WhenSubtractingTwoNumbers_ResultEqualToDifference()
         {

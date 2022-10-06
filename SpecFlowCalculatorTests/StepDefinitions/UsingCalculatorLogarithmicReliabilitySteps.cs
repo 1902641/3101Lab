@@ -11,7 +11,7 @@ namespace ICT3101_Calculator.UnitTests.Step_Definitions
 
         private CalculatorContext _calculatorContext;
 
-        public UsingCalculatorLogarithmicReliabilitySteps(CalculatorContext _calculatorContext) // use it as ctor parameter
+        public UsingCalculatorLogarithmicReliabilitySteps(CalculatorContext _calculatorContext) 
         {
             this._calculatorContext = _calculatorContext;
         }

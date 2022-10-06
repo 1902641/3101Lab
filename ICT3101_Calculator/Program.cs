@@ -26,7 +26,6 @@ namespace ICT3101_Calculator
                     Console.Write("This is not valid input. Please enter an integer value: ");
                     numInput1 = Console.ReadLine();
                 }
-                // Ask the user to type the second number.
                 Console.Write("Type another number, and then press Enter: ");
                 numInput2 = Console.ReadLine();
                 double cleanNum2 = 0;
@@ -35,7 +34,6 @@ namespace ICT3101_Calculator
                     Console.Write("This is not valid input. Please enter an integer value: ");
                     numInput2 = Console.ReadLine();
                 }
-                // Ask the user to choose an operator.
                 Console.WriteLine("Choose an operator from the following list:");
                 Console.WriteLine("\ta - Add");
                 Console.WriteLine("\ts - Subtract");
@@ -62,10 +60,9 @@ namespace ICT3101_Calculator
                     Console.WriteLine("Oh no! An exception occurred trying math.\n - Details: " + e.Message);
                 }
                 Console.WriteLine("------------------------\n");
-                // Wait for the user to respond before closing.
                 Console.Write("Press 'q' and Enter to quit the app, or press any other key and Enter to continue: ");
                 if (Console.ReadLine() == "q") endApp = true;
-                Console.WriteLine("\n"); // Friendly linespacing.
+                Console.WriteLine("\n");
             }
             return;
         }
